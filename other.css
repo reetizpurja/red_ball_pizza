@@ -1,0 +1,110 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Reetiz Purja
+    Date: 8/14/2024
+    File: other.css
+ */
+
+body {
+  background-image: url(parlor.jpg);
+  background-color: #ccc;
+  background-repeat: no repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+.horizontal {
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.horizontal li a {
+  font-size: 20px;
+}
+
+.vertical a {
+  color: white;
+}
+
+.vertical li {
+  gap: 10px;
+  padding: 7px;
+  margin: 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #9a1417, transparent);
+}
+
+main {
+  border-left: 5px solid #9a1417;
+  border-right: 5px solid #9a1417;
+  background-color: white;
+}
+
+main article {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+article p {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+aside h1 {
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+aside li {
+  background-image: linear-gradient(to left, #d37379, #c2c2c2);
+  padding: 10px;
+  gap: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px;
+  border: 2px solid#000;
+}
+
+#deals div {
+  border: 3px dashed #9a1417;
+  margin: 0px;
+  padding: 0px;
+}
+
+#deals {
+  gap: 20px;
+  padding: 25px;
+}
+
+#deals div:nth-child(odd) {
+  background-color: #f9c2c6;
+}
+
+#deals div:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+#deals div h1 {
+  padding: 5px;
+}
+
+#deals div p:nth-child(2) {
+  padding: 10px;
+}
+
+#deals div p:nth-child(3) {
+  font-weight: bold;
+}
+
+#deals div p:nth-child(4) {
+  padding-right: 10px;
+}
